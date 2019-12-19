@@ -1,6 +1,6 @@
 # Vim Cheatsheet
 
-## Simple File 
+## File 
 
 | Description                   | Command               | Shortcut      |
 | ----------------------------- | --------------------- | ------------- | 
@@ -37,8 +37,15 @@
 | ----------------------------- | --------------------- | ------------- | 
 | Convert to upper case         |                       | `gU`
 | Convert to lower case         |                       | `gu`
-| Toggle wrapping               | `:set wrap`           |
-| Toggle no wrapping            | `:set nowrap`           |
+
+
+
+## Wrapping
+
+| Description                   | Command               | Shortcut      |
+| ----------------------------- | --------------------- | ------------- | 
+| Toggle wrapping               | `:set wrap`           |               |
+| Toggle no wrapping            | `:set nowrap`         |               |
 
 
 

@@ -40,15 +40,6 @@
 
 
 
-## Wrapping
-
-| Description                   | Command               | Shortcut      |
-| ----------------------------- | --------------------- | ------------- | 
-| Toggle wrapping               | `:set wrap`           |               |
-| Toggle no wrapping            | `:set nowrap`         |               |
-
-
-
 ## Cursor Movement
 
 | Description                   | Command               | Shortcut      |
@@ -73,6 +64,19 @@
 
 
 
+## Search/Replace
+
+| Description                   | Command               | Shortcut      |
+| ----------------------------- | --------------------- | ------------- | 
+| Search/replace text           | `:%s/search/replace/g`|               |
+| Search forward                | `:/pattern`           |               |   
+| Search backward               | `:?pattern`           |               |
+| Search next                   |                       | `n`           |
+| Search previous               |                       | `N`           |
+| Make insensitive search       | `:set ignorecase`     |               |
+
+
+
 ## Splits
 
 | Description                   | Command               | Shortcut      |
@@ -85,18 +89,6 @@
 | Go to right panel             |                       | `ctrl+w l`    | 
 
 *exit using `qa`*
-
-
-## Search/Replace
-
-| Description                   | Command               | Shortcut      |
-| ----------------------------- | --------------------- | ------------- | 
-| Search/replace text           | `:%s/search/replace/g`|               |
-| Search forward                | `/pattern`            |               |   
-| Search backward               | `?pattern`            |               |
-| Search next                   | `n`                   |               |
-| Search previous               | `N`                   |               |
-| Make insensitive search       | `:set ignorecase`     |               |
 
 
 
@@ -132,3 +124,12 @@
 | Open explorer in vertical     | `:Vexplore`           |               | 
 
 *exit using `qa`*
+
+
+
+## Wrapping
+
+| Description                   | Command               | Shortcut      |
+| ----------------------------- | --------------------- | ------------- | 
+| Toggle wrapping               | `:set wrap`           |               |
+| Toggle no wrapping            | `:set nowrap`         |               |

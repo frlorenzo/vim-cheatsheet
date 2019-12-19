@@ -87,14 +87,17 @@
 *exit using `qa`*
 
 
-## Find/Replace
+## Search/Replace
 
 | Description                   | Command               | Shortcut      |
 | ----------------------------- | --------------------- | ------------- | 
-| Find text                     |
-| Replace text                  |
-| Find next                     |
-| Find previous                 |
+| Search/replace text           | `:%s/search/replace/g`|               |
+| Search forward                | `/pattern`            |               |   
+| Search backward               | `?pattern`            |               |
+| Search next                   | `n`                   |               |
+| Search previous               | `N`                   |               |
+| Make insensitive search       | `:set ignorecase`     |               |
+
 
 
 ## Tabs

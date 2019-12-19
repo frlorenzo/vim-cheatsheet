@@ -2,7 +2,7 @@
 
 ## File 
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Open/new file                 | `:edit filepath`      |               | 
 | Find/open file                | `:find filepath`      |               | 
@@ -14,7 +14,7 @@
 
 ## Copy/Paste
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Select text                   |                       | `v`           | 
 | Select line                   |                       | `V`           |
@@ -33,7 +33,7 @@
 
 ## Conversion
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Convert to upper case         |                       | `gU`
 | Convert to lower case         |                       | `gu`
@@ -42,7 +42,7 @@
 
 ## Cursor Movement
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Go to line                    | `:{i}`                | `{i}G`,`{i}gg`| 
 | Move to end of line           |                       | `$`           | 
@@ -66,7 +66,7 @@
 
 ## Search/Replace
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Search/replace text           | `:%s/search/replace/g`|               |
 | Search forward                | `:/pattern`           |               |   
@@ -79,7 +79,7 @@
 
 ## Splits
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Create veritcal split         | `:vsp [path]`         |               | 
 | Create horizontal split       | `:sp [path]`          |               | 
@@ -94,7 +94,7 @@
 
 ## Tabs
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Open/new files in tab         | `vim -p path/*.*`     |               | 
 | Open/new file in tab          | `:tabedit filepath`   |               | 
@@ -116,7 +116,7 @@
 
 ## Explore
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Simple file explorer          | `vim path`            |               | 
 | Open explorer                 | `:Explore path`       |               | 
@@ -129,7 +129,7 @@
 
 ## Wrapping
 
-| Description                   | Command               | Shortcut      |
+| Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Toggle wrapping               | `:set wrap`           |               |
 | Toggle no wrapping            | `:set nowrap`         |               |

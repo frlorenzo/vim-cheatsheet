@@ -66,7 +66,7 @@
 
 
 
-# Splits
+## Splits
 
 | Description                   | Command               | Shortcut      |
 | ----------------------------- | --------------------- | ------------- | 
@@ -80,7 +80,7 @@
 *exit using `qa`*
 
 
-# Find/Replace
+## Find/Replace
 
 | Description                   | Command               | Shortcut      |
 | ----------------------------- | --------------------- | ------------- | 

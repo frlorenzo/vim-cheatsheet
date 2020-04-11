@@ -1,15 +1,15 @@
 # Vim Cheatsheet
 
 
-- [File](file)
-- [Copy/Paste](copypaste)
-- [Conversion](conversion)
-- [Cursor Movement](cursormovement)
-- [Search/Replace](searchreplace)
-- [Splits](splits)
-- [Tabs](tabs)
-- [Explore](explore)
-- [Wrapping](wrapping)
+- [File](#file)
+- [Copy/Paste](#copypaste)
+- [Conversion](#conversion)
+- [Cursor Movement](#cursormovement)
+- [Search/Replace](#searchreplace)
+- [Splits](#splits)
+- [Tabs](#tabs)
+- [Explore](#explore)
+- [Wrapping](#wrapping)
 
 
 ## File 

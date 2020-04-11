@@ -20,8 +20,8 @@
 | Find/open file                | `:find filepath`      |               | 
 | Save file                     | `:w`, `:w!`           |               | 
 | Save file as                  | `:w filepath`         |               | 
-| Close file                    | `:q`, `:q!`           |               | 
-| Close all/splits/tabs         | `:qa`, `:qa!`         |               | 
+| Quit vim/Close file           | `:q`, `:q!`           |               | 
+| Quit vim/Close all/splits/tabs| `:qa`, `:qa!`         |               | 
 
 [[top]](#vim-cheatsheet)
 

@@ -145,8 +145,13 @@
 | Go to upper panel                  |                       | `ctrl+w k`            | 
 | Go to right panel                  |                       | `ctrl+w l`            | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
+| Increase window height             |                       | `ctrl+w # +`          | 
+| Decrease window height             |                       | `ctrl+w # -`          | 
+| Increase window width              |                       | `ctrl+w # >`          | 
+| Decrease window width              |                       | `ctrl+w # <`          | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
 | Max current window vertical        |                       | `ctrl+w _`            | 
-| Max current window horizontal      |                       | `ctrl+w &vert;`       | 
+| Max current window horizontal      |                       | `ctrl+w &#124;`       | 
 | Make all equal size                |                       | `ctrl+w =`            | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Close current window               | `:close`              |                       | 

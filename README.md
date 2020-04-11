@@ -194,7 +194,7 @@
 | ----------------------------- | --------------------- | ------------- |
 | `---------------------------` | `-------------------` | `-----------` | 
 | Open terminal new window      | `:term`               |               |
-| Focus to next window          |                       | `ctrl+ww`     |
+| Focus to next window          |                       | `Ctrl+w+w`    |
 
 [[top]](#vim-cheatsheet)
 

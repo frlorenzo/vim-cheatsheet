@@ -16,12 +16,13 @@
 
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
-| Open/new file                 | `:edit filepath`      |               | 
+| ----------------------------- | --------------------- | ------------- | 
+| Open/new file                 | `:e filepath`         |               | 
 | Find/open file                | `:find filepath`      |               | 
 | Save/write file               | `:w`, `:w!`           |               | 
 | Save/write file as            | `:w filepath`         |               | 
 | Save/write all, then quit     | `:wqa`                |               | 
-| Quit vim/close file           | `:q`, `:q!`           |               | 
+| Quit vim/close current tab    | `:q`, `:q!`           |               | 
 | Quit vim/close all            | `:qa`, `:qa!`         |               | 
 
 [[top]](#vim-cheatsheet)

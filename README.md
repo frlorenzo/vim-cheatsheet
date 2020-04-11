@@ -2,6 +2,7 @@
 
 
 - [File](#file)
+- [Buffer](#buffer)
 - [Copy/Paste](#copypaste)
 - [Conversion](#conversion)
 - [Cursor Movement](#cursormovement)

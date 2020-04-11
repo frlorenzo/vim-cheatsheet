@@ -153,7 +153,6 @@
 | Move current tab to first          | `:tabm 0`             |                       | 
 | Move current tab to last           | `:tabm`               |                       | 
 | Move current tab to index          | `:tabm #`             |                       | 
-| Save current session               | `:mksession filepath` |                       | 
 
 [[top]](#vim-cheatsheet)
 

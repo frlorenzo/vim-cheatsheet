@@ -151,7 +151,7 @@
 | Decrease window width              |                       | `ctrl+w # <`          | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Max current window vertical        |                       | `ctrl+w _`            | 
-| Max current window horizontal      |                       | `ctrl+w &#124;`       | 
+| Max current window horizontal      |                       | `ctrl+w \|`           | 
 | Make all equal size                |                       | `ctrl+w =`            | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Close current window               | `:close`              |                       | 

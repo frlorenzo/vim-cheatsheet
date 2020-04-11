@@ -22,6 +22,8 @@
 | Save file as                  | `:w filepath`         |               | 
 | Close file                    | `:q`, `:q!`           |               | 
 
+- [top](#vim-cheatsheet)
+
 
 
 ## Copy/Paste
@@ -41,6 +43,8 @@
 | Undo                          |                       | `u`           |
 | Redo                          |                       | `ctrl+r`      |
 
+- [top](#vim-cheatsheet)
+
 
 
 ## Conversion
@@ -49,6 +53,8 @@
 | ----------------------------- | --------------------- | ------------- | 
 | Convert to upper case         |                       | `gU`
 | Convert to lower case         |                       | `gu`
+
+- [top](#vim-cheatsheet)
 
 
 
@@ -74,6 +80,8 @@
 | Jump to top of the screen     |                       | `H`           | 
 | Jump to bottom of the screen  |                       | `L`           | 
 
+- [top](#vim-cheatsheet)
+
 
 
 ## Search/Replace
@@ -86,6 +94,8 @@
 | Search next                   |                       | `n`           |
 | Search previous               |                       | `N`           |
 | Make insensitive search       | `:set ignorecase`     |               |
+
+- [top](#vim-cheatsheet)
 
 
 
@@ -101,6 +111,8 @@
 | Go to right panel             |                       | `ctrl+w l`    | 
 
 *exit using `qa`*
+
+- [top](#vim-cheatsheet)
 
 
 
@@ -124,6 +136,8 @@
 | Move current tab to last      | `:tabm`               |               | 
 | Move current tab to index     | `:tabm {i}`           |               | 
 
+- [top](#vim-cheatsheet)
+
 
 
 ## Explore
@@ -137,6 +151,8 @@
 
 *exit using `qa`*
 
+- [top](#vim-cheatsheet)
+
 
 
 ## Wrapping
@@ -145,3 +161,6 @@
 | ----------------------------- | --------------------- | ------------- | 
 | Toggle wrapping               | `:set wrap`           |               |
 | Toggle no wrapping            | `:set nowrap`         |               |
+
+- [top](#vim-cheatsheet)
+

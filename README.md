@@ -138,7 +138,7 @@
 | Go to first tab               | `:tabfirst`           |               | 
 | Go to last tab                | `:tablast`            |               | 
 | List all the open tabs        | `:tabs`               |               | 
-| Close current tab             | `:tabc`               |               | 
+| Close current tab             | `:tabc`/`:q`/`:q!`    |               | 
 | Close particular tab          | `:tabc {i}`           |               | 
 | Close other tabs              | `:tabo`               |               | 
 | Move current tab to first     | `:tabm 0`             |               | 

@@ -24,7 +24,6 @@
 | Save/write all, then quit     | `:wqa`                |               | 
 | Quit vim/close current tab    | `:q`/`:q!`            |               | 
 | Quit vim/close all            | `:qa`/`:qa!`          |               | 
-| Save current session          | `:mksession filepath` |               | 
 
 [[top]](#vim-cheatsheet)
 
@@ -163,6 +162,19 @@
 | Open explorer in vertical     | `:Vexplore`           |               | 
 
 *exit using `qa`*
+
+[[top]](#vim-cheatsheet)
+
+
+
+## Session
+
+| Description                   | Command               | Keystroke     |
+| ----------------------------- | --------------------- | ------------- | 
+| `---------------------------` | `-------------------` | `-----------` | 
+| Create session                | `:mksession filepath` |               | 
+| Open session                  | `:source filepath`    |               | 
+| Save changes                  | `:mks!`               |               | 
 
 [[top]](#vim-cheatsheet)
 

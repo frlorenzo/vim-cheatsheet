@@ -35,17 +35,23 @@
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | `---------------------------` | `-------------------` | `-----------` | 
+| Copy selection                |                       | `y`           |
+| Copy line                     |                       | `yy`          |
+| Copy line number              | `:##,##y`             |               |
+| `---------------------------` | `-------------------` | `-----------` | 
+| Paste after cursor            |                       | `p`           |
+| Paste before cursor           |                       | `P`           |
+| `---------------------------` | `-------------------` | `-----------` | 
+| Cut selection                 |                       | `d`           |
+| Cut line                      |                       | `dd`          |
+| Cut/delete line number        | `:##,##d`             |               |
+| Delete between braces         |                       | `d%`          |
+| `---------------------------` | `-------------------` | `-----------` | 
 | Select text                   |                       | `v`           | 
 | Select line                   |                       | `V`           |
 | Select block                  |                       | `ctrl+v`      |
 | Select all                    |                       | `ggVG`        |
-| Copy selection                |                       | `y`           |
-| Copy line                     |                       | `yy`          |
-| Paste after cursor            |                       | `p`           |
-| Paste before cursor           |                       | `P`           |
-| Cut selection                 |                       | `d`           |
-| Cut line                      |                       | `dd`          |
-| Delete between braces         |                       | `d%`          |
+| `---------------------------` | `-------------------` | `-----------` | 
 | Undo                          |                       | `u`           |
 | Redo                          |                       | `ctrl+r`      |
 

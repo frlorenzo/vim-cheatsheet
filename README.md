@@ -194,7 +194,11 @@
 | ----------------------------- | --------------------- | ------------- |
 | `---------------------------` | `-------------------` | `-----------` | 
 | Open terminal new window      | `:term`               |               |
-| Focus to next window          |                       | `Ctrl+w+w`    |
+| Focus to next window          |                       | `Ctrl+w``w`   |
+| Go to terminal-normal mode    |                       | `Ctrl+w``n`   |
+| Go to next tab                |                       | `Ctrl+w``gt`  |
+| Go to previous tab            |                       | `Ctrl+w``gT`  |
+| Ends the job                  |                       | `Ctrl+w``Ctrl+c`   |
 
 [[top]](#vim-cheatsheet)
 

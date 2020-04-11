@@ -131,7 +131,7 @@
 | List all the open tabs        | `:tabs`               |               | 
 | Close current tab             | `:tabc`               |               | 
 | Close particular tab          | `:tabc {i}`           |               | 
-| Close other tabs              | `:tabonly`            |               | 
+| Close other tabs              | `:tabonly`/`:tabo`    |               | 
 | Move current tab to first     | `:tabm 0`             |               | 
 | Move current tab to last      | `:tabm`               |               | 
 | Move current tab to index     | `:tabm {i}`           |               | 

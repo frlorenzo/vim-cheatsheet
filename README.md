@@ -10,6 +10,7 @@
 - [Tabs](#tabs)
 - [Explore](#explore)
 - [Session](#session)
+- [Terminal](#terminal)
 - [Wrapping](#wrapping)
 
 
@@ -182,6 +183,17 @@
 | Create session                | `:mksession filepath` |               | 
 | Open session                  | `:source filepath`    |               | 
 | Save changes                  | `:mks!`               |               | 
+
+[[top]](#vim-cheatsheet)
+
+
+
+## Terminal
+
+| Description                   | Command               | Keystroke     |
+| ----------------------------- | --------------------- | ------------- |
+| `---------------------------` | `-------------------` | `-----------` | 
+| Open terminal new window      | `:term`               |               |
 
 [[top]](#vim-cheatsheet)
 

@@ -33,6 +33,7 @@
 
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
+| ----------------------------- | --------------------- | ------------- | 
 | Select text                   |                       | `v`           | 
 | Select line                   |                       | `V`           |
 | Select block                  |                       | `ctrl+v`      |
@@ -54,6 +55,7 @@
 
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
+| ----------------------------- | --------------------- | ------------- | 
 | Convert to upper case         |                       | `gU`
 | Convert to lower case         |                       | `gu`
 
@@ -64,6 +66,7 @@
 ## Cursor Movement
 
 | Description                   | Command               | Keystroke     |
+| ----------------------------- | --------------------- | ------------- | 
 | ----------------------------- | --------------------- | ------------- | 
 | Go to line                    | `:{i}`                | `{i}G`,`{i}gg`| 
 | Move to end of line           |                       | `$`           | 
@@ -91,6 +94,7 @@
 
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
+| ----------------------------- | --------------------- | ------------- | 
 | Search/replace text           | `:%s/search/replace/g`|               |
 | Search forward                | `:/pattern`           |               |   
 | Search backward               | `:?pattern`           |               |
@@ -105,6 +109,7 @@
 ## Splits
 
 | Description                   | Command               | Keystroke     |
+| ----------------------------- | --------------------- | ------------- | 
 | ----------------------------- | --------------------- | ------------- | 
 | Create veritcal split         | `:vsp [path]`         |               | 
 | Create horizontal split       | `:sp [path]`          |               | 
@@ -122,6 +127,7 @@
 ## Tabs
 
 | Description                   | Command               | Keystroke     |
+| ----------------------------- | --------------------- | ------------- | 
 | ----------------------------- | --------------------- | ------------- | 
 | Open/new files in tab         | `vim -p path/*.*`     |               | 
 | Open/new file in tab          | `:tabedit filepath`   |               | 
@@ -147,6 +153,7 @@
 
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
+| ----------------------------- | --------------------- | ------------- | 
 | Simple file explorer          | `vim path`            |               | 
 | Open explorer                 | `:Explore path`       |               | 
 | Open explorer in horizontal   | `:Sexplore`           |               | 
@@ -160,6 +167,7 @@
 
 ## Wrapping
 
+| ----------------------------- | --------------------- | ------------- | 
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | Toggle wrapping               | `:set wrap`           |               |

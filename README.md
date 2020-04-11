@@ -24,6 +24,7 @@
 | Save/write all, then quit     | `:wqa`                |               | 
 | Quit vim/close current tab    | `:q`/`:q!`            |               | 
 | Quit vim/close all            | `:qa`/`:qa!`          |               | 
+| Save current session          | `:mksession filepath` |               | 
 
 [[top]](#vim-cheatsheet)
 
@@ -44,6 +45,7 @@
 | Paste before cursor           |                       | `P`           |
 | Cut selection                 |                       | `d`           |
 | Cut line                      |                       | `dd`          |
+| Delete between braces         |                       | `d%`          |
 | Undo                          |                       | `u`           |
 | Redo                          |                       | `ctrl+r`      |
 
@@ -144,6 +146,7 @@
 | Move current tab to first     | `:tabm 0`             |               | 
 | Move current tab to last      | `:tabm`               |               | 
 | Move current tab to index     | `:tabm {i}`           |               | 
+| Save current session          | `:mksession filepath` |               | 
 
 [[top]](#vim-cheatsheet)
 

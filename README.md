@@ -43,7 +43,7 @@
 | Undo                          |                       | `u`           |
 | Redo                          |                       | `ctrl+r`      |
 
-- [top](#vim-cheatsheet)
+[[top]](#vim-cheatsheet)
 
 
 

@@ -146,7 +146,7 @@
 | Go to right panel                  |                       | `ctrl+w l`            | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Max current window vertical        |                       | `ctrl+w _`            | 
-| Max current window horizontal      |                       | `ctrl+w |``           | 
+| Max current window horizontal      |                       | `ctrl+w &vert;`       | 
 | Make all equal size                |                       | `ctrl+w =`            | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Close current window               | `:close`              |                       | 
@@ -191,7 +191,7 @@
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Simple file explorer               | `vim path`            |                       | 
-| Open explorer                      | `:Ex path`       |                       | 
+| Open explorer                      | `:Ex path`            |                       | 
 | Open explorer in horizontal        | `:Sexplore`           |                       | 
 | Open explorer in vertical          | `:Vexplore`           |                       | 
 

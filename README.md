@@ -44,6 +44,9 @@
 
 *alternative to using tabs which uses single window*
 
+[[top]](#vim-cheatsheet)
+
+
 
 ## Copy/Paste
 
@@ -136,10 +139,17 @@
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Create veritcal split              | `:vsp [path]`         |                       | 
 | Create horizontal split            | `:sp [path]`          |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
 | Go to left panel                   |                       | `ctrl+w h`            | 
 | Go to lower panel                  |                       | `ctrl+w j`            | 
 | Go to upper panel                  |                       | `ctrl+w k`            | 
 | Go to right panel                  |                       | `ctrl+w l`            | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Max current window vertical        |                       | `ctrl+w _`            | 
+| Max current window horizontal      |                       | `ctrl+w |`            | 
+| Make all equal size                |                       | `ctrl+w =`            | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Close current window               | `:close`              |                       | 
 
 *exit using `qa`*
 
@@ -155,18 +165,21 @@
 | Open/new files in tab              | `vim -p path/*.*`     |                       | 
 | Open/new file in tab               | `:tabe filepath`      |                       | 
 | Find/open file in tab              | `:tabf filepath`      |                       | 
+| List all the open tabs             | `:tabs`               |                       |
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Go to next tab                     | `:tabn`               | `gt`                  | 
 | Go to previous tab                 | `:tabp`               | `gT`                  | 
 | Go to indexed tab                  | `:tabn #`             | `#gt`                 | 
 | Go to first tab                    | `:tabfirst`           |                       | 
 | Go to last tab                     | `:tablast`            |                       | 
-| List all the open tabs             | `:tabs`               |                       | 
-| Close current tab                  | `:tabc`/`:q`/`:q!`    |                       | 
-| Close particular tab               | `:tabc #`.            |                       | 
-| Close other tabs                   | `:tabo`               |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Move current tab to first          | `:tabm 0`             |                       | 
 | Move current tab to last           | `:tabm`               |                       | 
 | Move current tab to index          | `:tabm #`             |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Close current tab                  | `:tabc`/`:q`/`:q!`    |                       | 
+| Close particular tab               | `:tabc #`.            |                       | 
+| Close other tabs                   | `:tabo`               |                       | 
 
 [[top]](#vim-cheatsheet)
 

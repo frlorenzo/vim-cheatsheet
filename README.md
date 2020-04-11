@@ -31,6 +31,19 @@
 
 
 
+## Buffer
+
+| Description                        | Command               | Keystroke             |
+| ---------------------------------- | --------------------- | --------------------- |
+| `--------------------------------` | `-------------------` | `-------------------` |
+| List buffers                       | `:buffers`            |                       | 
+| Remove from buffer (close file)    | `:bd`/`:bd #`         |                       | 
+| Wipe from buffer (close file)      | `:bw`/`:bw #`         |                       | 
+| List buffers                       | `:buffers`            |                       | 
+
+*alternative to using tabs which uses single window*
+
+
 ## Copy/Paste
 
 | Description                        | Command               | Keystroke             |
@@ -164,7 +177,7 @@
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Simple file explorer               | `vim path`            |                       | 
-| Open explorer                      | `:Explore path`       |                       | 
+| Open explorer                      | `:Ex path`       |                       | 
 | Open explorer in horizontal        | `:Sexplore`           |                       | 
 | Open explorer in vertical          | `:Vexplore`           |                       | 
 

@@ -9,6 +9,7 @@
 - [Splits](#splits)
 - [Tabs](#tabs)
 - [Explore](#explore)
+- [Session](#session)
 - [Wrapping](#wrapping)
 
 

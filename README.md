@@ -194,6 +194,7 @@
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Open terminal new window           | `:term`               |                       |
+| Open terminal vertically           | `:vert term`          |                       |
 | Focus to next window               |                       | `Ctrl+w w`            |
 | Go to terminal-normal mode         |                       | `Ctrl+w n`            |
 | Go to next tab                     |                       | `Ctrl+w gt`           |

@@ -76,7 +76,7 @@
 | Description                   | Command               | Keystroke     |
 | ----------------------------- | --------------------- | ------------- | 
 | `---------------------------` | `-------------------` | `-----------` | 
-| Go to line                    | `:{i}`                | `{i}G`,`{i}gg`| 
+| Go to line                    | `:##`                 | `##G`,`##gg`  | 
 | Move to end of line           |                       | `$`           | 
 | Move to beginning of line     |                       | `0`           | 
 | Move to forward by word       |                       | `w`           | 
@@ -142,16 +142,16 @@
 | Find/open file in tab         | `:tabf filepath`      |               | 
 | Go to next tab                | `:tabn`               | `gt`          | 
 | Go to previous tab            | `:tabp`               | `gT`          | 
-| Go to indexed tab             | `:tabn {i}`           | `{i}gt`       | 
+| Go to indexed tab             | `:tabn #`             | `#gt`         | 
 | Go to first tab               | `:tabfirst`           |               | 
 | Go to last tab                | `:tablast`            |               | 
 | List all the open tabs        | `:tabs`               |               | 
 | Close current tab             | `:tabc`/`:q`/`:q!`    |               | 
-| Close particular tab          | `:tabc {i}`           |               | 
+| Close particular tab          | `:tabc #`.            |               | 
 | Close other tabs              | `:tabo`               |               | 
 | Move current tab to first     | `:tabm 0`             |               | 
 | Move current tab to last      | `:tabm`               |               | 
-| Move current tab to index     | `:tabm {i}`           |               | 
+| Move current tab to index     | `:tabm #`             |               | 
 | Save current session          | `:mksession filepath` |               | 
 
 [[top]](#vim-cheatsheet)

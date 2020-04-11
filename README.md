@@ -21,6 +21,7 @@
 | Save file                     | `:w`, `:w!`           |               | 
 | Save file as                  | `:w filepath`         |               | 
 | Close file                    | `:q`, `:q!`           |               | 
+| Close all/splits/tabs         | `:qa`, `:qa!`         |               | 
 
 [[top]](#vim-cheatsheet)
 

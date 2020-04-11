@@ -130,8 +130,8 @@
 | ----------------------------- | --------------------- | ------------- | 
 | `---------------------------` | `-------------------` | `-----------` | 
 | Open/new files in tab         | `vim -p path/*.*`     |               | 
-| Open/new file in tab          | `:tabedit filepath`   |               | 
-| Find/open file in tab         | `:tabfind filepath`   |               | 
+| Open/new file in tab          | `:tabe filepath`      |               | 
+| Find/open file in tab         | `:tabf filepath`      |               | 
 | Go to next tab                | `:tabn`               | `gt`          | 
 | Go to previous tab            | `:tabp`               | `gT`          | 
 | Go to indexed tab             | `:tabn {i}`           | `{i}gt`       | 
@@ -140,7 +140,7 @@
 | List all the open tabs        | `:tabs`               |               | 
 | Close current tab             | `:tabc`               |               | 
 | Close particular tab          | `:tabc {i}`           |               | 
-| Close other tabs              | `:tabonly`/`:tabo`    |               | 
+| Close other tabs              | `:tabo`               |               | 
 | Move current tab to first     | `:tabm 0`             |               | 
 | Move current tab to last      | `:tabm`               |               | 
 | Move current tab to index     | `:tabm {i}`           |               | 

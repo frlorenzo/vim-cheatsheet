@@ -18,10 +18,11 @@
 | ----------------------------- | --------------------- | ------------- | 
 | Open/new file                 | `:edit filepath`      |               | 
 | Find/open file                | `:find filepath`      |               | 
-| Save file                     | `:w`, `:w!`           |               | 
-| Save file as                  | `:w filepath`         |               | 
-| Quit vim/Close file           | `:q`, `:q!`           |               | 
-| Quit vim/Close all/splits/tabs| `:qa`, `:qa!`         |               | 
+| Save/write file               | `:w`, `:w!`           |               | 
+| Save/write file as            | `:w filepath`         |               | 
+| Save/write all, then quit     | `:wqa`                |               | 
+| Quit vim/close file           | `:q`, `:q!`           |               | 
+| Quit vim/close all            | `:qa`, `:qa!`         |               | 
 
 [[top]](#vim-cheatsheet)
 

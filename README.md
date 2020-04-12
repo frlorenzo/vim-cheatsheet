@@ -41,7 +41,6 @@
 | List buffers                       | `:buffers`            |                       | 
 | Remove from buffer (close file)    | `:bd`/`:bd #`         |                       | 
 | Wipe from buffer (close file)      | `:bw`/`:bw #`         |                       | 
-| List buffers                       | `:buffers`            |                       | 
 
 * *This is an alternative to using tabs which holds list of files in a single window*
 

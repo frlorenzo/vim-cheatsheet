@@ -5,7 +5,7 @@
 - [Buffer](#buffer)
 - [Copy/Paste](#copypaste)
 - [Conversion](#conversion)
-- [Cursor Movement](#cursormovement)
+- [Cursor Movement](#cursor-movement)
 - [Search/Replace](#searchreplace)
 - [Splits](#splits)
 - [Tabs](#tabs)

@@ -8,7 +8,7 @@
 - [Cursor Movement](#cursor-movement)
 - [Search/Replace](#searchreplace)
 - [Spell Check](#spell-check)
-- [Splits](#splits)
+- [Split Window](#split-window)
 - [Tabs](#tabs)
 - [Explore](#explore)
 - [Session](#session)
@@ -154,7 +154,7 @@
 
 
 
-## Splits
+## Split Window
 
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |

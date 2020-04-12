@@ -96,8 +96,8 @@
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Move to end of line                |                       | `$`                   | 
 | Move to beginning of line          |                       | `0`                   | 
-| Move to forward by word            |                       | `w`                   | 
-| Move to backward by word           |                       | `b`                   |
+| Move forward by word               |                       | `w`                   | 
+| Move backward by word              |                       | `b`                   |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Up one line                        |                       | `k`, `↑`              | 
 | Down one line                      |                       | `j`, `↓`              |

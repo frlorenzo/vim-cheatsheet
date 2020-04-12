@@ -142,7 +142,8 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Turn on spell checking             | `:setlocal spell`     |                       | 
+| Turn on spell checking             | `:set spell`          |                       | 
+| Turn off spell checking            | `:set nospell`        |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Move to next misspelled word       |                       | `]s`                  |
 | Move to next previous word         |                       | `[s`                  |

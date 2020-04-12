@@ -94,23 +94,27 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Go to line                         | `:##`                 | `##G`,`##gg`          | 
 | Move to end of line                |                       | `$`                   | 
 | Move to beginning of line          |                       | `0`                   | 
 | Move to forward by word            |                       | `w`                   | 
-| Move to backward by word           |                       | `b`                   | 
-| Move up one line                   |                       | `k`, `↑`              | 
-| Move down one line                 |                       | `j`, `↓`              | 
-| Move left one character            |                       | `h`, `←`              | 
-| Move right one character           |                       | `l`, `➡`              | 
+| Move to backward by word           |                       | `b`                   |
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Up one line                        |                       | `k`, `↑`              | 
+| Down one line                      |                       | `j`, `↓`              |
+| Left one character                 |                       | `h`, `←`              | 
+| Right one character                |                       | `l`, `➡`              | 
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Jump to end of file                |                       | `G`                   | 
 | Jump to beginning of file          |                       | `gg`                  | 
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Jump forward one sentence          |                       | `)`                   | 
 | Jump backward one sentence         |                       | `(`                   | 
 | Jump forward one paragraph         |                       | `}`                   | 
 | Jump backward one paragraph        |                       | `{`                   | 
 | Jump to top of the screen          |                       | `H`                   | 
 | Jump to bottom of the screen       |                       | `L`                   | 
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Go to line                         | `:##`                 | `##G`,`##gg`          | 
 
 [[top]](#vim-cheatsheet)
 

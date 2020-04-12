@@ -42,7 +42,7 @@
 | Wipe from buffer (close file)      | `:bw`/`:bw #`         |                       | 
 | List buffers                       | `:buffers`            |                       | 
 
-*alternative to using tabs which uses single window*
+* *This is an alternative to using tabs which uses single window*
 
 [[top]](#vim-cheatsheet)
 

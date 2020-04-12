@@ -7,6 +7,7 @@
 - [Conversion](#conversion)
 - [Cursor Movement](#cursor-movement)
 - [Search/Replace](#searchreplace)
+- [Spell Check](#spell-check)
 - [Splits](#splits)
 - [Tabs](#tabs)
 - [Explore](#explore)
@@ -131,6 +132,23 @@
 | Search next                        |                       | `n`                   |
 | Search previous                    |                       | `N`                   |
 | Make insensitive search            | `:set ignorecase`     |                       |
+
+[[top]](#vim-cheatsheet)
+
+
+
+## Spell Check
+
+| Description                        | Command               | Keystroke             |
+| ---------------------------------- | --------------------- | --------------------- |
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Turn on spell checking             | `:setlocal spell`     |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Move to next misspelled word       |                       | `]s`                  |
+| Move to next previous word         |                       | `[s`                  |
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Get spelling suggestions           |                       | `z=`                  |
+| Add to spelling file               |                       | `zg`                  |
 
 [[top]](#vim-cheatsheet)
 

@@ -219,8 +219,8 @@
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Simple file explorer               | `vim path`            |                       | 
 | Open explorer                      | `:Ex path`            |                       | 
-| Open explorer in horizontal        | `:Sexplore`           |                       | 
-| Open explorer in vertical          | `:Vexplore`           |                       | 
+| Open explorer in horizontal        | `:Sexplore`/`:Sex`    |                       | 
+| Open explorer in vertical          | `:Vexplore`/`:Vex`    |                       | 
 
 *exit using `qa`*
 

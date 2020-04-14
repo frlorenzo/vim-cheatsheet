@@ -22,12 +22,15 @@
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Open/new file                      | `:e filepath`         |                       | 
-| Find/open file                     | `:find filepath`      |                       | 
-| Save/write file                    | `:w`/`:w!`            |                       | 
-| Save/write file as                 | `:w filepath`         |                       | 
-| Save/write all, then quit          | `:wqa`                |                       | 
-| Quit vim/close current tab         | `:q`/`:q!`            |                       | 
-| Quit vim/close all                 | `:qa`/`:qa!`          |                       | 
+| Reload file                        | `:e! filepath`        |                       |
+| Find/open file                     | `:find filepath`      |                       |
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Write file                         | `:w`/`:w!`            |                       | 
+| Write file as                      | `:w filepath`         |                       | 
+| Write all, then quit               | `:wqa`/`:x`           | `ZZ`                  |
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Quit vim/close tab, buffer         | `:q`/`:q!`            |                       | 
+| Quit vim/close all tab, buffer     | `:qa`/`:qa!`          |                       | 
 
 [[top]](#vim-cheatsheet)
 
@@ -53,7 +56,8 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Insert text                        |                       | `i[text]<esc>`        |
+| Insert text (before cursor)        |                       | `[#]i[text]<esc>`     |
+| Append text (after cursor)         |                       | `[#]a[text]<esc>`     |
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Copy selection                     |                       | `y`                   |
 | Copy line                          |                       | `yy`                  |
@@ -105,13 +109,13 @@
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Move to end of line                |                       | `$`                   | 
 | Move to beginning of line          |                       | `0`                   | 
-| Move forward by word               |                       | `w`                   | 
-| Move backward by word              |                       | `b`                   |
+| Move forward by word               |                       | `[#]w`                | 
+| Move backward by word              |                       | `[#]b`                |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Up one, # line                     |                       | `k`, `#k`, `↑`        | 
-| Down one, # line                   |                       | `j`, `#j`, `↓`        |
-| Left one, # character              |                       | `h`, `#h`, `←`        | 
-| Right one, # character             |                       | `l`, `#l`, `➡`        | 
+| Move up                            |                       | `[#]k`, `↑`           | 
+| Move down                          |                       | `[#]j`, `↓`           |
+| Move left                          |                       | `[#]h`, `←`           | 
+| Move right                         |                       | `[#]l`, `➡`           | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Jump to end of file                |                       | `G`                   | 
 | Jump to beginning of file          |                       | `gg`                  | 

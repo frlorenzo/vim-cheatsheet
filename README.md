@@ -108,10 +108,10 @@
 | Move forward by word               |                       | `w`                   | 
 | Move backward by word              |                       | `b`                   |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Up one line                        |                       | `k`, `#k`, `↑`        | 
-| Down one line                      |                       | `j`, `#j`, `↓`        |
-| Left one character                 |                       | `h`, `#h`, `←`        | 
-| Right one character                |                       | `l`, `#l`, `➡`        | 
+| Up one, # line                     |                       | `k`, `#k`, `↑`        | 
+| Down one, # line                   |                       | `j`, `#j`, `↓`        |
+| Left one, # character              |                       | `h`, `#h`, `←`        | 
+| Right one, # character             |                       | `l`, `#l`, `➡`        | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Jump to end of file                |                       | `G`                   | 
 | Jump to beginning of file          |                       | `gg`                  | 

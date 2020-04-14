@@ -43,6 +43,13 @@
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | List buffers                       | `:buffers`            |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Go to buffer by number             | `:b[#]`               |                       | 
+| Go to next file in list            | `:next`               |                       | 
+| Go to previous file in list        | `:previous`           |                       | 
+| Move to last file in the list      | `:last`               |                       | 
+| Move to first file in the list     | `:first`              |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Remove from buffer (close file)    | `:bd`/`:bd #`         |                       | 
 | Wipe from buffer (close file)      | `:bw`/`:bw #`         |                       | 
 

@@ -261,7 +261,7 @@
 | Find next occurrence               |                       | `n`                   | 
 | Find previous occurrence           |                       | `N`                   | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Find matching [], {}, ()           |                       | `%`                   | 
+| Find matching `[]`,`{}`,`()`       |                       | `%`                   | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Highlight all matches in search    | `:set hlsearch`       |                       | 
 

@@ -77,6 +77,9 @@
 | Undo line                          |                       | `U`                   |
 | Redo                               |                       | `ctrl+r`              |
 | `--------------------------------` | `-------------------` | `-------------------` |
+| Open new line below cursor         |                       | `o`                   |
+| Open new line above cursor         |                       | `O`                   |
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Delete a line break                |                       | `J`                   |
 
 [[top]](#vim-cheatsheet)

@@ -3,7 +3,7 @@
 
 - [File](#file)
 - [Buffer](#buffer)
-- [Copy/Paste](#copypaste)
+- [Editing](#editing)
 - [Conversion](#conversion)
 - [Cursor Movement](#cursor-movement)
 - [Search/Replace](#searchreplace)
@@ -48,7 +48,7 @@
 
 
 
-## Copy/Paste
+## Editing
 
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |

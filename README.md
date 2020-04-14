@@ -11,6 +11,7 @@
 - [Split Window](#split-window)
 - [Tabs](#tabs)
 - [Explore](#explore)
+- [Search](#search)
 - [Session](#session)
 - [Terminal](#terminal)
 - [Wrapping](#wrapping)
@@ -133,6 +134,9 @@
 | Jump to bottom of the screen       |                       | `L`                   | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Go to line                         | `:##`                 | `##G`,`##gg`          | 
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Scrolls up half of screen          |                       | `ctrl+u`              | 
+| Scrolls down half of screen        |                       | `ctrl+d`              | 
 
 [[top]](#vim-cheatsheet)
 
@@ -241,6 +245,25 @@
 | Open explorer in vertical          | `:Vexplore`/`:Vex`    |                       | 
 
 *exit using `qa`*
+
+[[top]](#vim-cheatsheet)
+
+
+
+## Search
+
+| Description                        | Command               | Keystroke             |
+| ---------------------------------- | --------------------- | --------------------- |
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Search for occurrence of "string"  | `/string`             |                       | 
+| Search "string" whole word only    | `/string\>`           |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Find next occurrence               |                       | `n`                   | 
+| Find previous occurrence           |                       | `N`                   | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Find matching [], {}, ()           |                       | `%`                   | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Highlight all matches in search    | `:set hlsearch`       |                       | 
 
 [[top]](#vim-cheatsheet)
 

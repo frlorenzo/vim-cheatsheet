@@ -123,6 +123,7 @@
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Jump to end of file                |                       | `G`                   | 
 | Jump to beginning of file          |                       | `gg`                  | 
+| Jump to line number                |                       | `#G`,`#gg`            | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Jump forward one sentence          |                       | `)`                   | 
 | Jump backward one sentence         |                       | `(`                   | 

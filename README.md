@@ -107,15 +107,19 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Move to end of line                |                       | `$`                   | 
-| Move to beginning of line          |                       | `0`                   | 
-| Move forward by word               |                       | `[#]w`                | 
-| Move backward by word              |                       | `[#]b`                |
-| `--------------------------------` | `-------------------` | `-------------------` |
 | Move up                            |                       | `[#]k`, `↑`           | 
 | Move down                          |                       | `[#]j`, `↓`           |
 | Move left                          |                       | `[#]h`, `←`           | 
 | Move right                         |                       | `[#]l`, `➡`           | 
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Move to end of line                |                       | `$`                   | 
+| Move to beginning of line          |                       | `0`                   | 
+| Move to first non-block of line    |                       | `^`                   | 
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Move next front of word            |                       | `[#]w`                | 
+| Move previous front of word        |                       | `[#]b`                |
+| Move next end of word              |                       | `[#]e`                | 
+| Move previous end of word          |                       | `[#]ge`               | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Jump to end of file                |                       | `G`                   | 
 | Jump to beginning of file          |                       | `gg`                  | 

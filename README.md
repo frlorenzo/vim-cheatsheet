@@ -75,8 +75,9 @@
 | Paste before cursor                |                       | `P`                   |
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Delete character                   |                       | `x`                   |
-| Delete word (beginning)            |                       | `dw`                  |
+| Delete word (from beginning)       |                       | `dw`                  |
 | Delete line                        |                       | `dd`                  |
+| Delete to end of line              |                       | `d$`                  |
 | Delete selection                   |                       | `d`                   |
 | Delete between lines               | `:##,##d`             |                       |
 | Delete between braces              |                       | `d%`                  |

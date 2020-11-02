@@ -75,6 +75,7 @@
 | Paste before cursor                |                       | `P`                   |
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Delete character                   |                       | `x`                   |
+| Delete word (beginning)            |                       | `dw`                  |
 | Delete line                        |                       | `dd`                  |
 | Delete selection                   |                       | `d`                   |
 | Delete between lines               | `:##,##d`             |                       |

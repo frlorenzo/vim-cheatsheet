@@ -44,3 +44,11 @@
 - `u`       undo edits
 - `Ctrl+r`  redo edits
 
+
+## Select, Change, Delete Blocks of Text
+- `cit`       change inner tag between very first "<" and very last ">"
+- `dit`       delete inner tag between very first "<" and very last ">"
+- `ci<`       change contents if inside angle brackets
+- `ciw`       change a word
+- `daw`       delete a word
+

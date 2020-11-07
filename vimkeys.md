@@ -43,6 +43,7 @@
 - **`$`**       go to the end of line
 
 
+## Cursor Page Movement
 - `Ctrl+f`  page forward
 - `Ctrl+b`  page backward
 - `gg`      move to the top of document

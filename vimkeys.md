@@ -69,9 +69,9 @@
 
 
 # Undo, Redo, and Repeat
-- `.`       repeat last command
-- `u`       undo last command
-- `Ctrl+r`  redo last command
+- **`u`**       undo last command
+- **`Ctrl+r`**  redo last command
+- **`.`**       repeat last command
 
 
 ## Select, Change, Delete Blocks of Text

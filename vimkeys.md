@@ -31,22 +31,24 @@
 - **`P`**       paste above the current line
 
 
-## Movement
-- `hjkl`    move left, down, up, right
+## Cursor Position 
+- **`hjkl`**    move left, down, up, right
+- **`w`**       move to start word
+- **`W`**       move to start word ignore word terminators
+- **`b`**       move to back word
+- **`B`**       move to back word ignore word terminators
+- **`e`**       move to end word
+- **`E`**       move to end word ignore word terminators
+- **`0`**       go to the beginning of line
+- **`$`**       go to the end of line
+
+
 - `Ctrl+f`  page forward
 - `Ctrl+b`  page backward
 - `gg`      move to the top of document
 - `G`       move to the end of document
-- `w`       move to start word
-- `W`       move to start word ignore word terminators
-- `e`       move to end word
-- `E`       move to end word ignore word terminators
-- `b`       move to back word
-- `B`       move to back word ignore word terminators
 - `)(`      move by sentence
 - `}{`      move by paragraph
-- `0`       go to the beginning of line
-- `$`       go to the end of line
 
 
 # Undo, Redo, and Repeat

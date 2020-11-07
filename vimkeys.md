@@ -31,25 +31,34 @@
 - **`P`**       paste above the current line
 
 
-## Cursor Position/Movement 
+## Cursor Movement (Character)
 - **`hjkl`**    move left, down, up, right
-- **`w`**       move forward one word (**W** ignore non-alpha)
-- **`b`**       move back one word (**B** ignore non-alpha)
-- **`e`**       move forward (end) of word (**E** ignore non-alpha)
+
+
+## Cursor Movement (Word)
+- **`wb`**      move cursor forward, back one word 
+- **`WB`**      move curose forward, back one word ignore non-alpha
+- **`e`**       move cursor forward (end) of word (**E** ignore non-alpha)
 - **`0`**       moves cursor to the beginning of line
 - **`$`**       moves cursor to the end of line
 
 
-## Screen Scrolling and Paging
+## Cursor Movement (Page)
 - **`Ctrl+d`**  scroll the cursor down (12 lines)
 - **`Ctrl+u`**  scroll the cursor up (12 lines)
 - **`Ctrl+f`**  scroll the cursor forward (down) (24 lines)
 - **`Ctrl+b`**  scroll the cursor back (up) (24 lines)
 
-- `gg`      move to the top of document
-- `G`       move to the end of document
-- `)(`      move by sentence
-- `}{`      move by paragraph
+
+## Cursor Movement (File)
+- **`gg`**      move cursor to the top of the file
+- **`G`**       move cursor to the end of the file
+
+
+## Cursor Movement (Position)
+- **`#G`**      move cursor to given line #
+- **`)(`**      move by sentence
+- **`}{`**      move by paragraph
 
 
 # Undo, Redo, and Repeat

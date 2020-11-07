@@ -1,27 +1,33 @@
 # Vim Keys
 
 
-## Input Text 
+## Basic Changes
+- **`x`**       delete one character at the cursor
+- **`r`**       replace one character at the cursor
+
+
+## Text Insertion 
 - **`i`**       insert before the cursor
 - **`a`**       append after the cursor
 - **`o`**       insert line below the cursor, place at the beginning
 - **`O`**       insert line above the cursor, place at the beginning
 
 
-## Write/Exit Vim
+## Write, Exit
 - **`:w`**      write to file
 - **`:w[q]`**   write and quit
 - **`:q[!]`**   quit, without writing
 - **`:x`**      write and exit
 - **`ZZ`**      write and exit
 
-## Copy, Delete, Paste
-- `yy`        yanks (copies) current line
-- `#yy`       yanks current and # lines after
-- `p`         paste after the current line
-- `P`         paste above the current line
-- `dd`        delete current line
-- `#dd`       delete # of lines
+
+## Copy, Paste, Delete
+- **`yy`**      yanks (copies) current line
+- **`#yy`**     yanks current and # lines after
+- **`p`**       paste after the current line
+- **`P`**       paste above the current line
+- **`dd`**      delete current line
+- **`#dd`**     delete # of lines
 
 
 ## Movement
@@ -43,9 +49,9 @@
 
 
 # Undo, Redo, and Repeat
-- `.`       repeat last edit
-- `u`       undo edits
-- `Ctrl+r`  redo edits
+- `.`       repeat last command
+- `u`       undo last command
+- `Ctrl+r`  redo last command
 
 
 ## Select, Change, Delete Blocks of Text

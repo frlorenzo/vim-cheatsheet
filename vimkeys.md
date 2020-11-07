@@ -3,7 +3,10 @@
 
 ## Basic Changes
 - **`x`**       delete one character at the cursor
+- **`#x`**      delete # number of characters at the cursor
 - **`r`**       replace one character at the cursor
+- **`dd`**      delete current line
+- **`#dd`**     delete # of lines
 
 
 ## Text Insertion 
@@ -13,7 +16,7 @@
 - **`O`**       insert line above the cursor, place at the beginning
 
 
-## Write, Exit
+## Write/Exit
 - **`:w`**      write to file
 - **`:w[q]`**   write and quit
 - **`:q[!]`**   quit, without writing
@@ -21,13 +24,11 @@
 - **`ZZ`**      write and exit
 
 
-## Copy, Paste, Delete
+## Copy/Paste
 - **`yy`**      yanks (copies) current line
 - **`#yy`**     yanks current and # lines after
 - **`p`**       paste after the current line
 - **`P`**       paste above the current line
-- **`dd`**      delete current line
-- **`#dd`**     delete # of lines
 
 
 ## Movement

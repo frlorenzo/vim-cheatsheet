@@ -62,6 +62,12 @@
 - **`}{`**      move by paragraph
 
 
+## Search
+- **`/xxx`**    search forward for occurence of `xxx`
+- **`n`**       search for next/backward occurence 
+- **`?xxx`**    search backward for occurence of `xxx`
+
+
 # Undo, Redo, and Repeat
 - `.`       repeat last command
 - `u`       undo last command

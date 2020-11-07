@@ -33,14 +33,10 @@
 
 ## Cursor Position 
 - **`hjkl`**    move left, down, up, right
-- **`w`**       move to start word
-- **`W`**       move to start word ignore word terminators
-- **`b`**       move to back word
-- **`B`**       move to back word ignore word terminators
-- **`e`**       move to end word
-- **`E`**       move to end word ignore word terminators
-- **`0`**       go to the beginning of line
-- **`$`**       go to the end of line
+- **`w`**       move to start of word (**W** ignore non-alpha)
+- **`b`**       move to back of word (**B** ignore non-alpha)
+- **`e`**       move to end of word (**E** ignore non-alpha)
+- **`0$`**      go to beginning, end of line
 
 
 ## Cursor Page Movement

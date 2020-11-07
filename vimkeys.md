@@ -17,7 +17,7 @@
 
 
 ## Write/Exit
-- **`:#,#w [file]`** write to file (optional filename)
+- **`:[#,#]w [file]`** write to file (optional filename)
 - **`:w[q]`**   write and quit
 - **`:q[!]`**   quit, without writing
 - **`:x`**      write and exit

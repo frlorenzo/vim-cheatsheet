@@ -1,7 +1,11 @@
 # Plugin: netrw
 
 
-## Invoke
-- **`:Explore`**      opens netrw in the current window, abrv. **`:Ex`**
-- **`:Sexplore`**     opens netrw in a horizontal split, abrv. **`:Sex`**
-- **`:Vexplore`**     opens netrw in a vertical split, abrv. **`:Vex`**
+## Invoke netrw
+- **`:Ex`**     opens netrw in the current window
+- **`:Sex`**    opens netrw in a horizontal split
+- **`:Vex`**    opens netrw in a vertical split
+
+## View
+- **`i`**       cycle through view types (thin, long, wide, tree)
+- **`I`**       remove banner

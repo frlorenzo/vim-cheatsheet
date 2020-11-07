@@ -2,10 +2,10 @@
 
 
 ## Input Text 
-- **`:i`**        insert before the cursor
-- **`:a`**        append after the cursor
-- **`:o`**        insert line below the cursor, place at the beginning
-- **`:O`**        insert line above the cursor, place at the beginning
+- **`i`**        insert before the cursor
+- **`a`**        append after the cursor
+- **`o`**        insert line below the cursor, place at the beginning
+- **`O`**        insert line above the cursor, place at the beginning
 
 
 ## Exit Vim

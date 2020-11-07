@@ -64,8 +64,11 @@
 
 ## Search
 - **`/xxx`**    search forward for occurence of `xxx`
-- **`n`**       search for next/backward occurence 
+- **`/xxx\>`**  search forward for occurence of `xxx` whole word only
+- **`n`**       search for next occurence 
+- **`N`**       search for previous occurence 
 - **`?xxx`**    search backward for occurence of `xxx`
+- **`?xxx\>`**  search backward for occurence of `xxx` whole word only
 
 
 # Undo, Redo, and Repeat

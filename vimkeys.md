@@ -17,7 +17,7 @@
 
 
 ## Write/Exit
-- **`:w`**      write to file
+- **`:#,#w [file]`** write to file (optional filename)
 - **`:w[q]`**   write and quit
 - **`:q[!]`**   quit, without writing
 - **`:x`**      write and exit
@@ -43,19 +43,16 @@
 - **`$`**       moves cursor to the end of line
 
 
-## Cursor Movement (Page)
+## Cursor Movement (Line)
 - **`Ctrl+d`**  scroll the cursor down (12 lines)
 - **`Ctrl+u`**  scroll the cursor up (12 lines)
 - **`Ctrl+f`**  scroll the cursor forward (down) (24 lines)
 - **`Ctrl+b`**  scroll the cursor back (up) (24 lines)
 
 
-## Cursor Movement (File)
+## Cursor Movement (Position)
 - **`gg`**      move cursor to the top of the file
 - **`G`**       move cursor to the end of the file
-
-
-## Cursor Movement (Position)
 - **`#G`**      move cursor to given line #
 - **`)(`**      move by sentence
 - **`}{`**      move by paragraph

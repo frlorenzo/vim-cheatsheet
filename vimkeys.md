@@ -1,9 +1,11 @@
 # Vim Keys
 
 
-## Editor Mode 
-- `:i`        insert behind where cursor is
-- `:a`        append after where cursor is
+## Input Text 
+- **`:i`**        insert before the cursor
+- **`:a`**        append after the cursor
+- **`:o`**        insert line below the cursor, place at the beginning
+- **`:O`**        insert line above the cursor, place at the beginning
 
 
 ## Exit Vim

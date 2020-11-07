@@ -2,17 +2,18 @@
 
 
 ## Input Text 
-- **`i`**        insert before the cursor
-- **`a`**        append after the cursor
-- **`o`**        insert line below the cursor, place at the beginning
-- **`O`**        insert line above the cursor, place at the beginning
+- **`i`**       insert before the cursor
+- **`a`**       append after the cursor
+- **`o`**       insert line below the cursor, place at the beginning
+- **`O`**       insert line above the cursor, place at the beginning
 
 
-## Exit Vim
-- `:q[!]`     quit, force
-- `:w[q]`     write, quit
-- `:x`        write and exit
-
+## Write/Exit Vim
+- **`:w`**      write to file
+- **`:w[q]`**   write and quit
+- **`:q[!]`**   quit, without writing
+- **`:x`**      write and exit
+- **`ZZ`**      write and exit
 
 ## Copy, Delete, Paste
 - `yy`        yanks (copies) current line

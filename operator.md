@@ -1,6 +1,6 @@
 # Operators
 
-Operators can work on words, lines, sentence, paragraphs. Similar to cut/copy/paste (delete/yank/put).
+Operators can work on words, lines, sentences, paragraphs. This is similar to cut/copy/paste (delete/yank/put).
 
 ```
 Operator + Scope = Command

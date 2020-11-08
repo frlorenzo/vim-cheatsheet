@@ -6,6 +6,8 @@ Operators can work on words, lines, sentence, paragraphs. Similar to cut/copy/pa
 Operator + Scope = Command
 ```
 
+Preceed with **`#`** or **`#,#`** to indicate number of lines for each operator: d, c, y, p.
+
 
 ## Delete Operator
 

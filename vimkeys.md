@@ -71,7 +71,7 @@
 - **`?xxx\>`**  search backward for occurence of `xxx` whole word only
 
 
-# Undo, Redo, and Repeat
+## Undo, Redo, and Repeat
 - **`u`**       undo last command
 - **`Ctrl+r`**  redo last command
 - **`.`**       repeat last command

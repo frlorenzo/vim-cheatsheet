@@ -28,7 +28,7 @@
 set wildchar=<Tab> wildmenu wildmode=full " :b then Tab
 ```
 
-Add function keys map
+Optionally add function key map
 
 ```
 set wildcharm=<C-Z>

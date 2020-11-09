@@ -8,9 +8,7 @@
 - [Cursor Movement](#cursor-movement)
 - [Search/Replace](#searchreplace)
 - [Spell Check](#spell-check)
-- [Split Window](#split-window)
-- [Tabs](#tabs)
-- [Explore](#explore)
+- [Window](#window)
 - [Search](#search)
 - [Session](#session)
 - [Terminal](#terminal)
@@ -185,7 +183,7 @@
 
 
 
-## Split Window
+## Window
 
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
@@ -212,51 +210,6 @@
 *exit using `qa`*
 
 [[top]](#vim-cheatsheet)
-
-
-
-## Tabs
-
-| Description                        | Command               | Keystroke             |
-| ---------------------------------- | --------------------- | --------------------- |
-| `--------------------------------` | `-------------------` | `-------------------` |
-| Open/new files in tab              | `vim -p path/*.*`     |                       | 
-| Open/new file in tab               | `:tabe filepath`      |                       | 
-| Find/open file in tab              | `:tabf filepath`      |                       | 
-| List all the open tabs             | `:tabs`               |                       |
-| `--------------------------------` | `-------------------` | `-------------------` |
-| Go to next tab                     | `:tabn`               | `gt`                  | 
-| Go to previous tab                 | `:tabp`               | `gT`                  | 
-| Go to indexed tab                  | `:tabn #`             | `#gt`                 | 
-| Go to first tab                    | `:tabfirst`           |                       | 
-| Go to last tab                     | `:tablast`            |                       | 
-| `--------------------------------` | `-------------------` | `-------------------` |
-| Move current tab to first          | `:tabm 0`             |                       | 
-| Move current tab to last           | `:tabm`               |                       | 
-| Move current tab to index          | `:tabm #`             |                       | 
-| `--------------------------------` | `-------------------` | `-------------------` |
-| Close current tab                  | `:tabc`/`:q`/`:q!`    |                       | 
-| Close particular tab               | `:tabc #`.            |                       | 
-| Close other tabs                   | `:tabo`               |                       | 
-
-[[top]](#vim-cheatsheet)
-
-
-
-## Explore
-
-| Description                        | Command               | Keystroke             |
-| ---------------------------------- | --------------------- | --------------------- |
-| `--------------------------------` | `-------------------` | `-------------------` |
-| Simple file explorer               | `vim path`            |                       | 
-| Open explorer                      | `:Ex path`            |                       | 
-| Open explorer in horizontal        | `:Sexplore`/`:Sex`    |                       | 
-| Open explorer in vertical          | `:Vexplore`/`:Vex`    |                       | 
-
-*exit using `qa`*
-
-[[top]](#vim-cheatsheet)
-
 
 
 ## Search

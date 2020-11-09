@@ -12,11 +12,8 @@
 
 ## Managing Splits
 
-- `:vertical rightbelow sf <file>`
-- Create vertical split, read file into buffer in right window
-
-- `:vertical [leftabove] sf <file>`
-- Create vertical split, read file into buffer in left window
+- `:vertical rightbelow sf <file>`    - create vertical split, read file into buffer in right window
+- `:vertical [leftabove] sf <file>`   - create vertical split, read file into buffer in left window
 
 
 

@@ -43,8 +43,8 @@
 | List all buffers                   | `:ls`                 |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Go to buffer by number or file     | `:b#`, `b file`       |                       | 
-| Go to next file in list            | `:next`               |                       | 
-| Go to previous file in list        | `:previous`           |                       | 
+| Go to next buffer                  | `:bn`                 |                       | 
+| Go to previous buffer              | `:bp`                 |                       | 
 | Move to last file in the list      | `:last`               |                       | 
 | Move to first file in the list     | `:first`              |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` |

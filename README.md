@@ -40,15 +40,15 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| List buffers                       | `:buffers`            |                       | 
+| List all buffers                   | `:ls`                 |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Go to buffer by number             | `:b[#]`               |                       | 
+| Go to buffer by number or file     | `:b#`, `b file`       |                       | 
 | Go to next file in list            | `:next`               |                       | 
 | Go to previous file in list        | `:previous`           |                       | 
 | Move to last file in the list      | `:last`               |                       | 
 | Move to first file in the list     | `:first`              |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Remove from buffer (close file)    | `:bd`/`:bd #`         |                       | 
+| Close current or # from buffer     | `:bd #`               |                       | 
 | Wipe from buffer (close file)      | `:bw`/`:bw #`         |                       | 
 
 * *This is an alternative to using tabs which holds list of files in a single window*

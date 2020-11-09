@@ -25,7 +25,7 @@
 ## Buffer Switching using `:b <Tab>`
 
 ```
-set wildchar=<Tab> wildmenu wildmode=full " :b then Tab
+set wildchar=<Tab> wildmenu wildmode=full 
 ```
 
 Optionally add function key map

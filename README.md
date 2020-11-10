@@ -196,10 +196,10 @@
 | Go to upper panel                  |                       | `ctrl+w k`            | 
 | Go to right panel                  |                       | `ctrl+w l`            | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Increase window height             | resize +1             | `ctrl+w # +`          | 
-| Decrease window height             | resize -1             | `ctrl+w # -`          | 
-| Increase window width              | vertical resize +1    | `ctrl+w # >`          | 
-| Decrease window width              | vertical resize -1    | `ctrl+w # <`          | 
+| Increase window height             | `:resize +1`          | `ctrl+w # +`          | 
+| Decrease window height             | `:resize -1`          | `ctrl+w # -`          | 
+| Increase window width              | `:vertical resize +1` | `ctrl+w # >`          | 
+| Decrease window width              | `:vertical resize -1` | `ctrl+w # <`          | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Max current window vertical        |                       | `ctrl+w _`            | 
 | Max current window horizontal      |                       | `ctrl+w \|`           | 

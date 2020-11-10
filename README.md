@@ -62,8 +62,12 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Insert text (before cursor)        |                       | `[#]i[text]<esc>`     |
-| Append text (after cursor)         |                       | `[#]a[text]<esc>`     |
+| Insert text (before cursor)        |                       | `[#]i`                |
+| Append text (after cursor)         |                       | `[#]a`                |
+| Open before cursor                 |                       | `[#]o`                |
+| Open after cursor                  |                       | `[#]O`                |
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Return to command mode             |                       | `esc`,`ctl+c`,`ctl+[` |
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Copy selection                     |                       | `y`                   |
 | Copy line                          |                       | `yy`                  |
@@ -82,12 +86,12 @@
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Select text                        |                       | `v`                   | 
 | Select line                        |                       | `V`                   |
-| Select block                       |                       | `ctrl+v`              |
+| Select block                       |                       | `ctl+v`               |
 | Select all                         |                       | `ggVG`                |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Undo                               |                       | `u`                   |
 | Undo line                          |                       | `U`                   |
-| Redo                               |                       | `ctrl+r`              |
+| Redo                               |                       | `ctl+r`               |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Open new line below cursor         |                       | `o`                   |
 | Open new line above cursor         |                       | `O`                   |
@@ -142,8 +146,8 @@
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Go to line                         | `:##`                 | `##G`,`##gg`          | 
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Scrolls up half of screen          |                       | `ctrl+u`              | 
-| Scrolls down half of screen        |                       | `ctrl+d`              | 
+| Scrolls up half of screen          |                       | `ctl+u`               | 
+| Scrolls down half of screen        |                       | `ctl+d`               | 
 
 [[top]](#vim-cheatsheet)
 
@@ -191,19 +195,19 @@
 | Create veritcal split              | `:vsp [path]`         |                       | 
 | Create horizontal split            | `:sp [path]`          |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Go to left panel                   |                       | `ctrl+w h`            | 
-| Go to lower panel                  |                       | `ctrl+w j`            | 
-| Go to upper panel                  |                       | `ctrl+w k`            | 
-| Go to right panel                  |                       | `ctrl+w l`            | 
+| Go to left panel                   |                       | `ctl+w h`             | 
+| Go to lower panel                  |                       | `ctl+w j`             | 
+| Go to upper panel                  |                       | `ctl+w k`             | 
+| Go to right panel                  |                       | `ctl+w l`             | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Increase window height             | `:resize +1`          | `ctrl+w # +`          | 
-| Decrease window height             | `:resize -1`          | `ctrl+w # -`          | 
-| Increase window width              | `:vertical resize +1` | `ctrl+w # >`          | 
-| Decrease window width              | `:vertical resize -1` | `ctrl+w # <`          | 
+| Increase window height             | `:resize +1`          | `ctl+w # +`           | 
+| Decrease window height             | `:resize -1`          | `ctl+w # -`           | 
+| Increase window width              | `:vertical resize +1` | `ctl+w # >`           | 
+| Decrease window width              | `:vertical resize -1` | `ctl+w # <`           | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Max current window vertical        |                       | `ctrl+w _`            | 
-| Max current window horizontal      |                       | `ctrl+w \|`           | 
-| Make all equal size                |                       | `ctrl+w =`            | 
+| Max current window vertical        |                       | `ctl+w _`             | 
+| Max current window horizontal      |                       | `ctl+w \|`            | 
+| Make all equal size                |                       | `ctl+w =`             | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Close current window               | `:close`              |                       | 
 
@@ -251,11 +255,11 @@
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Open terminal new window           | `:term`               |                       |
 | Open terminal vertically           | `:vert term`          |                       |
-| Focus to next window               |                       | `Ctrl+w w`            |
-| Go to terminal-normal mode         |                       | `Ctrl+w n`            |
-| Go to next tab                     |                       | `Ctrl+w gt`           |
-| Go to previous tab                 |                       | `Ctrl+w gT`           |
-| Ends the job                       |                       | `Ctrl+w c`            |
+| Focus to next window               |                       | `ctl+w w`             |
+| Go to terminal-normal mode         |                       | `ctl+w n`             |
+| Go to next tab                     |                       | `ctl+w gt`            |
+| Go to previous tab                 |                       | `ctl+w gT`            |
+| Ends the job                       |                       | `ctl+w c`             |
 
 [[top]](#vim-cheatsheet)
 

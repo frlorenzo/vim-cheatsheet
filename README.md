@@ -90,8 +90,8 @@
 | Delete between lines               | `:##,##d`             |                       |
 | Delete between braces              |                       | `d%`                  |
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Select text                        |                       | `v`                   | 
-| Select line                        |                       | `V`                   |
+| Start visual mode to select text   |                       | `v`                   | 
+| Visual; select entire line         |                       | `V`                   |
 | Select block                       |                       | `ctl+v`               |
 | Select all                         |                       | `ggVG`                |
 | `--------------------------------` | `-------------------` | `-------------------` |

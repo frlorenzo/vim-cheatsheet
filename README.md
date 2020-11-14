@@ -219,10 +219,14 @@
 | Make all equal size                |                       | `ctl+w =`             | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Close current window               | `:close`              |                       | 
+| `--------------------------------` | `-------------------` | `-------------------` | 
+| Place split below                  | `:set splitbelow`     |                       | 
+| Place split right                  | `:set splitright`     |                       | 
 
 *exit using `qa`*
 
 [[top]](#vim-cheatsheet)
+
 
 
 ## Search

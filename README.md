@@ -1,7 +1,7 @@
 # Vim Cheatsheet
 
 
-- [File](#file-management)
+- [File Management](#file-management)
 - [Buffer](#buffer)
 - [Editing](#editing)
 - [Conversion](#conversion)

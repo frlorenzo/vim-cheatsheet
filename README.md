@@ -15,21 +15,27 @@
 - [Wrapping](#wrapping)
 
 
+
 ## File 
 
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Open/new file                      | `:e file`             |                       | 
-| Reload file                        | `:e! filep`           |                       |
+| Reload file                        | `:e! file`            |                       |
 | Find/open file                     | `:find file`          |                       |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Write file                         | `:w[!]`               |                       | 
-| Write file as                      | `:w filepath`         |                       | 
+| Write file as                      | `:w file`             |                       | 
 | Write all, then quit               | `:wqa`, `:x`          | `ZZ`                  |
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Quit vim/close tab, buffer         | `:q[!]`               |                       | 
-| Quit vim/close all tab, buffer     | `:qa[!]`              |                       | 
+| Quit vim/close all tab, buffer     | `:qa[!]`              |                       |
+| `--------------------------------` | `-------------------` | `-------------------` |
+| Show present working directory     | `:pwd`                |                       | 
+| Source the given file              | `:so file`            |                       | 
+| Source the current file            | `:so %`               |                       | 
+
 
 [[top]](#vim-cheatsheet)
 
@@ -163,7 +169,10 @@
 | Search backward                    | `:?pattern`           |                       |
 | Search next                        |                       | `n`                   |
 | Search previous                    |                       | `N`                   |
+| `--------------------------------` | `-------------------` | `-------------------` |
 | Make insensitive search            | `:set ignorecase`     |                       |
+| Incremental search when typing     | `:set incsearch`      |                       |
+| Highlight search                   | `:set hlsearch`       |                       |
 
 [[top]](#vim-cheatsheet)
 

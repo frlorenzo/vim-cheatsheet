@@ -20,16 +20,16 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Open/new file                      | `:e filepath`         |                       | 
-| Reload file                        | `:e! filepath`        |                       |
-| Find/open file                     | `:find filepath`      |                       |
+| Open/new file                      | `:e file`             |                       | 
+| Reload file                        | `:e! filep`           |                       |
+| Find/open file                     | `:find file`          |                       |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Write file                         | `:w`/`:w!`            |                       | 
+| Write file                         | `:w[!]`               |                       | 
 | Write file as                      | `:w filepath`         |                       | 
-| Write all, then quit               | `:wqa`/`:x`           | `ZZ`                  |
+| Write all, then quit               | `:wqa`, `:x`          | `ZZ`                  |
 | `--------------------------------` | `-------------------` | `-------------------` |
-| Quit vim/close tab, buffer         | `:q`/`:q!`            |                       | 
-| Quit vim/close all tab, buffer     | `:qa`/`:qa!`          |                       | 
+| Quit vim/close tab, buffer         | `:q[!]`               |                       | 
+| Quit vim/close all tab, buffer     | `:qa[!]`              |                       | 
 
 [[top]](#vim-cheatsheet)
 

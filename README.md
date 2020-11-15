@@ -201,24 +201,26 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Create veritcal split              | `:vsp [file]`         |                       | 
-| Create horizontal split            | `:sp [file]`          |                       | 
+| Create veritcal split              | `:vsp [file]`         | `<C-w>s`              | 
+| Create horizontal split            | `:sp [file]`          | `<C-w>v`              | 
+| Create empty file window           | `:new [file]`         |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Go to left panel                   |                       | `ctl+w h`             | 
-| Go to lower panel                  |                       | `ctl+w j`             | 
-| Go to upper panel                  |                       | `ctl+w k`             | 
-| Go to right panel                  |                       | `ctl+w l`             | 
+| Go to left panel                   |                       | `<C-w>h`              | 
+| Go to lower panel                  |                       | `<C-w>j`              | 
+| Go to upper panel                  |                       | `<C-w>k`              | 
+| Go to right panel                  |                       | `<C-w>l`              | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Increase window height             | `:resize +1`          | `ctl+w # +`           | 
-| Decrease window height             | `:resize -1`          | `ctl+w # -`           | 
-| Increase window width              | `:vertical resize +1` | `ctl+w # >`           | 
-| Decrease window width              | `:vertical resize -1` | `ctl+w # <`           | 
+| Increase window height             | `:resize +1`          | `<C-w> # +`           | 
+| Decrease window height             | `:resize -1`          | `<C-w> # -`           | 
+| Increase window width              | `:vertical resize +1` | `<C-w> # >`           | 
+| Decrease window width              | `:vertical resize -1` | `<C-w> # <`           | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Max current window vertical        |                       | `ctl+w _`             | 
-| Max current window horizontal      |                       | `ctl+w \|`            | 
-| Make all equal size                |                       | `ctl+w =`             | 
+| Max current window vertical        |                       | `<C-w>_`              | 
+| Max current window horizontal      |                       | `<C-w>|`              | 
+| Make all equal size                |                       | `<C-w>=`              | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Close current window               | `:close`              |                       | 
+| Close other window(s)              | `:only`               |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Place split below                  | `:set splitbelow`     |                       | 
 | Place split right                  | `:set splitright`     |                       | 

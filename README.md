@@ -201,8 +201,8 @@
 | Description                        | Command               | Keystroke             |
 | ---------------------------------- | --------------------- | --------------------- |
 | `--------------------------------` | `-------------------` | `-------------------` | 
-| Create veritcal split              | `:vsp [path]`         |                       | 
-| Create horizontal split            | `:sp [path]`          |                       | 
+| Create veritcal split              | `:vsp [file]`         |                       | 
+| Create horizontal split            | `:sp [file]`          |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` | 
 | Go to left panel                   |                       | `ctl+w h`             | 
 | Go to lower panel                  |                       | `ctl+w j`             | 

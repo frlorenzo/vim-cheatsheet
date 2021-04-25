@@ -55,6 +55,7 @@
 | Move to first file in the list     | `:first`              |                       | 
 | `--------------------------------` | `-------------------` | `-------------------` |
 | Close current or # from buffer     | `:bd #`               |                       | 
+| Close all files from buffer        | `:%bd`                |                       | 
 | Wipe from buffer (close file)      | `:bw`/`:bw #`         |                       | 
 
 * *This is an alternative to using tabs which holds list of files in a single window*
